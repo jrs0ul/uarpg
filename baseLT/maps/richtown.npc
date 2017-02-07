@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="5">
+        <Pos x="11" y="2"/>
+        <Sprite>hdeemon.tga</Sprite>
+        <Script>Exec("scripts/gman_advice.gsc")</Script>
+    </Npc>
+</Npcs>

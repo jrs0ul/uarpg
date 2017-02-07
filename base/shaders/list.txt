@@ -1,0 +1,9 @@
+base/shaders/justcolor.vert
+base/shaders/justcolor.frag
+base/shaders/texelcolor.vert
+base/shaders/texelcolor.frag
+base/shaders/toon.vert
+base/shaders/toon.frag
+base/shaders/shadow.vert
+base/shaders/shadow.frag
+

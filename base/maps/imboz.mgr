@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<MonsterGroups>
+    <Group size="2">
+        <Boss>1</Boss>
+        <ArenaName>town</ArenaName>
+        <Monsters>
+            <Monster race="0" sex="0" class="0">
+                <Name>King's Guard</Name>
+                <Level min="1" max="1"/>
+                <ExpVal>0.2</ExpVal>
+                <Radius>2.5</Radius>
+                <Model>guard</Model>
+                <Texture>guard</Texture>
+                <Items>
+                    <Item ID="0" countmin="1" countmax="2"/>
+                    <Item ID="11" countmin="10" countmax="20"/>
+                </Items>
+                <Equiped right="12" left="-1" arrmor="-1"/>
+                <Strategy HelpFriends="1">
+                    <HPItems>
+                        <Item index="0" weight="1.0"/>
+                    </HPItems>
+                </Strategy>
+            </Monster>
+        </Monsters>
+    </Group>
+
+    <Group size="4">
+
+        <ArenaName>town</ArenaName>
+        <Monsters>
+            <Monster race="0" sex="0" class="2">
+                <Name>Rogue</Name>
+                <Level min="1" max="2"/>
+                <ExpVal>0.4</ExpVal>
+                <Model>lildude</Model>
+                <Texture>chuman</Texture>
+            </Monster>
+            <Monster race="0" sex="1" class="2">
+                <Name>Ranger</Name>
+                <Level min="1" max="2"/>
+                <ExpVal>0.4</ExpVal>
+                <Model>chika</Model>
+                <Texture>chika</Texture>
+            </Monster>
+            <Monster race="0" sex="0" class="2">
+                <Name>Burglar</Name>
+                <Level min="1" max="2"/>
+                <ExpVal>0.4</ExpVal>
+                <Model>lildude</Model>
+                <Texture>chuman</Texture>
+            </Monster>
+        </Monsters>
+    </Group>
+</MonsterGroups>

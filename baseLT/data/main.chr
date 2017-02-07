@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Hero>
+    <Name>Jay</Name>
+    <Model>lildude</Model>
+    <Texture>chuman</Texture>
+    <Sprite>human</Sprite>
+    <Race>0</Race>
+    <Sex>0</Sex>
+    <Class>1</Class>
+    <HPmax>13</HPmax>
+    <MPmax>10</MPmax>
+    <Exp>50</Exp>
+    <Stats attack="7" deffense="4" agility="3" spirit="5" magpower="4"/>
+    <EvolvSpeed>25</EvolvSpeed>
+    <Radius>2.5</Radius>
+    <Face src="party.tga" index="3"/>
+    <Resistence bolt="2" fire="-1" ice="1" poison="1"/>
+    <Items>
+        <Item id="0" count="2"/>
+        <Item id="1" count="2"/>
+        <Item id="3" count="1"/>
+        <Item id="4" count="1"/>
+        <Item id="11" count="20"/>
+        <Item id="12" count="1"/>
+        <Item id="18" count="1"/>
+    </Items>
+</Hero>
+

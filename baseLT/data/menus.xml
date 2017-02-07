@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<Menus>
+    <Menu>
+        <Title>Rinkis:</Title>
+        <Options>
+            <Option>Burtai</Option>
+            <Option>Daiktai</Option>
+            <Option>Nuimti</Option>
+            <Option>Apie</Option>
+            <Option>Nustatymai</Option>
+            <Option>Išsaugoti</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Rinkis:</Title>
+        <Options>
+            <Option>Išeiti</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Rinkis:</Title>
+        <Options>
+            <Option>Naudoti</Option>
+            <Option>Paimti</Option>
+            <Option>Duoti</Option>
+            <Option>Išmesti</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Pridėti/Nuimti:</Title>
+        <Options>
+            <Option>K ranka</Option>
+            <Option>D ranka</Option>
+            <Option>Šarvai</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title> </Title>
+        <Options>
+            <Option>Pulti</Option>
+            <Option>Burti</Option>
+            <Option>Gintis</Option>
+            <Option>Naudoti</Option>
+            <Option>Pabėgti</Option>
+            <Option>Praleisti</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title> </Title>
+        <Options>
+            <Option>Naujas žaidimas</Option>
+            <Option>Tęsti</Option>
+            <Option>Nustatymai</Option>
+            <Option>Modai</Option>
+            <Option>Apie</Option>
+            <Option>Išeiti</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Parduotuvė:</Title>
+        <Options>
+            <Option>Pirkti</Option>
+            <Option>Parduoti</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Kuriam herojų:</Title>
+        <Options>
+            <Option>Rasė:</Option>
+            <Option>Lytis:</Option>
+            <Option>Klasė:</Option>
+            <Option>Vardas:</Option>
+            <Option>Ridenti kauliukus</Option>
+            <Option>Rinktis veidą</Option>
+            <Option>VISKS</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Rinkis lytį: </Title>
+        <Options>
+            <Option>vyras</Option>
+            <Option>moteris</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Perkrauti žaidimą?</Title>
+        <Options>
+            <Option>Taip</Option>
+            <Option>Ne</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Smuklė</Title>
+        <Options>
+            <Option>Ilsėtis</Option>
+            <Option>Pasiimti herojų </Option>
+            <Option>Palikti herojų </Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Kalvė</Title>
+        <Options>
+            <Option>Pirkti</Option>
+            <Option>Parduoti</Option>
+            <Option>Taisyti</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Žaidimo herojus</Title>
+        <Options>
+            <Option>Naudoti esamą</Option>
+            <Option>Kurti savo</Option>
+        </Options>
+        </Menu>
+        <Menu>
+        <Title>Nustatymai</Title>
+        <Options>
+            <Option>Rezoliucija: </Option>
+            <Option>Per visą ekraną: </Option>
+            <Option>Šešėliai: </Option>
+            <Option>Garsas: </Option>
+        </Options>
+    </Menu>
+
+
+</Menus>

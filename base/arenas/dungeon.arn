@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Arena>
+<!--Dungeon arena -->
+    <Model>models/arena_cave.rm2</Model>
+    <Textures>
+        <Texture>arena_cave.tga</Texture>
+    </Textures>
+    <SubsetTextures>
+        <Subset>0</Subset>
+    </SubsetTextures>
+    <Light>
+        <Pos x="0.0" y="-1.0" z="0.0" w="0.0"/>
+        <LightPos x="1.0" y="10.0" z="-18.0" w="0.0"/>
+        <LightTo  x="1.0" y="2.0" z="10.0" w="0.0"/>
+        <Diffuse r="0.5" g="0.5" b="0.5" a="1.0"/>
+        <Ambient r="0.1" g="0.1" b="0.1" a="0.1"/>
+    </Light>
+    <Attribs>
+        <Subset showBack="0" alphaTest="0">
+            <Diffuse r="0.5" g="0.5" b="0.5" a="1.0"/>
+            <Ambient r="0.1" g="0.1" b="0.1" a="0.1"/>
+        </Subset>
+    </Attribs>
+    <IntroPath>
+        <Node>
+            <Pos   x="21.46" y="8.27" z="-0.85"/>
+            <Dir   x="-0.96" y="-0.29" z="0.02"/>
+            <Right x="0.02"  y="0.00"  z="1.00"/>
+            <Up    x="-0.29" y="0.96"  z="0.01"/>
+        </Node>
+        <Node>
+            <Pos   x="8.82"  y="5.73"  z="-0.34"/>
+            <Dir   x="-0.83" y="-0.56" z="-0.01"/>
+            <Right x="-0.01" y="0.00"  z="1.00"/>
+            <Up    x="-0.56" y="0.83"  z="-0.01"/>
+        </Node>
+        <Node>
+            <Pos   x="-7.16" y="8.32"  z="-11.25"/>
+            <Dir   x="0.48"  y="-0.47" z="0.74"/>
+            <Right x="0.84"  y="0.00"  z="-0.55"/>
+            <Up    x="0.26"  y="0.88"  z="0.40"/>
+        </Node>
+    </IntroPath>
+    <CameraPoints>
+        <Point>
+            <Pos   x="3.56"  y="7.99"  z="14.34"/>
+            <Dir   x="-0.30" y="-0.47" z="-0.83"/>
+            <Right x="-0.94" y="0.00"  z="0.34"/>
+            <Up    x="-0.16" y="0.88"  z="-0.45"/>
+        </Point>
+        <Point>
+            <Pos   x="-9.56" y="1.35"  z="-5.02"/>
+            <Dir   x="0.89"  y="-0.03" z="0.45"/>
+            <Right x="0.45"  y="0.00"  z="-0.89"/>
+            <Up    x="0.03"  y="1.00"  z="0.01"/>
+        </Point>
+        <Point>
+            <Pos   x="-0.17" y="1.29"  z="-12.51"/>
+            <Dir   x="-0.09" y="-0.04" z="0.99"/>
+            <Right x="1.00"  y="0.00"  z="0.09"/>
+            <Up    x="-0.00" y="1.00"  z="0.04"/>
+        </Point>
+    </CameraPoints>
+    <OutroPath>
+        <Node>
+            <Pos   x="0.89" y="12.42" z="-7.74"/>
+            <Dir   x="0.05" y="-0.97" z="0.26"/>
+            <Right x="0.98" y="0.00"  z="-0.21"/>
+            <Up    x="0.20" y="0.26"  z="0.94"/>
+        </Node>
+        <Node>
+            <Pos   x="-3.87" y="4.24"  z="-3.90"/>
+            <Dir   x="0.87"  y="-0.42" z="0.25"/>
+            <Right x="0.27"  y="0.00"  z="-0.96"/>
+            <Up    x="0.41"  y="0.91"  z="0.12"/>
+        </Node>
+        <Node>
+            <Pos   x="-2.91" y="1.66"  z="-0.48"/>
+            <Dir   x="0.99"  y="-0.11" z="0.05"/>
+            <Right x="0.06"  y="0.00"  z="-1.00"/>
+            <Up    x="0.12"  y="0.99"  z="0.00"/>
+        </Node>
+    </OutroPath>
+
+</Arena>

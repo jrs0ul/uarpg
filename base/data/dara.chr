@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Hero>
+    <Name>Dara</Name>
+    <Model>chika</Model>
+    <Texture>chika</Texture>
+    <Sprite>chick</Sprite>
+    <Race>0</Race>
+    <Sex>1</Sex>
+    <Class>2</Class>
+    <HPmax>100</HPmax>
+    <MPmax>100</MPmax>
+    <EXP>800</EXP>
+    <Stats attack="8" deffense="5" agility="5" spirit="4" magpower="4"/>
+    <EvolvSpeed>25</EvolvSpeed>
+    <Radius>2.5</Radius>
+    <Face src="party.tga" index="2"/>
+    <Resistence bolt="5" fire="1" ice="2" poison="3"/>
+    <Items>
+        <Item id="11" count="120"/>
+    </Items>
+</Hero>
+

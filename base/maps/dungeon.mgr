@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<MonsterGroups>
+    <Group size="3">
+        <ArenaName>dungeon</ArenaName>
+        <Monsters>
+            <Monster race="5" sex="0" class="3">
+                <Name>Zombie</Name>
+                <Level min="3" max="3"/>
+                <ExpVal>0.5</ExpVal>
+                <Radius>2.5</Radius>
+                <Model>zombie</Model>
+                <Texture>zombie</Texture>
+            </Monster>
+        </Monsters>
+    </Group>
+    <Group size="3">
+        <ArenaName>dungeon</ArenaName>
+        <Monsters>
+            <Monster race="0" sex="0" class="0">
+                <Name>Skeleton</Name>
+                <Level min="3" max="3"/>
+                <ExpVal>0.4</ExpVal>
+                <Radius>2.5</Radius>
+                <Model>skeleton</Model>
+                <Texture>skeleton</Texture>
+                <Items>
+                    <Item ID="0" countmin="3" countmax="5"/>
+                </Items>
+                <Strategy HelpFriends="1">
+                    <Item index="0" weight="0.5"/>
+                </Strategy>
+            </Monster>
+        </Monsters>
+    </Group>
+    <Group size="3">
+        <ArenaName>dungeon</ArenaName>
+        <Monsters>
+            <Monster race="5" sex="0" class="3">
+                <Name>Zombie</Name>
+                <Level min="2" max="3"/>
+                <ExpVal>0.3</ExpVal>
+                <Radius>2.5</Radius>
+                <Model>zombie</Model>
+                <Texture>zombie</Texture>
+            </Monster>
+            <Monster race="7" sex="0" class="0">
+                <Name>Skeleton</Name>
+                <Level min="2" max="3"/>
+                <ExpVal>0.5</ExpVal>
+                <Radius>2.5</Radius>
+                <Model>skeleton</Model>
+                <Texture>skeleton</Texture>
+                <Items>
+                    <Item ID="0" countmin="3" countmax="5"/>
+                </Items>
+                <Strategy HelpFriends="1">
+                    <Item index="0" weight="0.5"/>
+                </Strategy>
+            </Monster>
+        </Monsters>
+    </Group>
+</MonsterGroups>

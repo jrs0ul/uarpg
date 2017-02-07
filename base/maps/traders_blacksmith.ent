@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Events>
+    <Border>
+        <Script>LoadMap("15","9","traiders")</Script>
+    </Border>
+</Events>

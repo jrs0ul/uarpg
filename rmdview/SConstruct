@@ -1,0 +1,35 @@
+import os
+import sys
+
+
+OBJ_DIR = os.path.join(os.getcwd(), 'obj/');
+env = Environment(ENV=os.environ, OBJPREFIX = OBJ_DIR)
+
+#windows
+if sys.platform == 'win32':
+    Tool('mingw')(env)
+
+env.ParseConfig('pkg-config --cflags --libs gtk+-2.0')
+env.ParseConfig('pkg-config --cflags --libs gtkglext-1.0')
+env.ParseConfig('sdl-config --cflags --libs')
+
+env.Program(target = "gtkrmd", 
+            source = ["src/gtkrmd.cpp",
+                      "../src/Extensions.cpp",
+                      "../src/TextureLoader.cpp",
+                      "../src/Image.cpp",
+                      "../src/models/RatModel.cpp",
+                      "../src/models/ModelCollection.cpp",
+                      "../src/models/rm2.cpp",
+                      "../src/Shader.cpp",
+                      "../src/ShaderProgram.cpp",
+                      "../src/Matrix.cpp",
+                      "../src/Vectors.cpp",
+                      "../src/Entity.cpp",
+                      "../src/Utils.cpp",
+                      "../src/VertexObject.cpp",
+                      "../src/gui/Text.cpp",
+                      "../src/gui/Button.cpp"
+                     ]
+            )
+

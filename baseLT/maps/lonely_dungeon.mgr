@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<MonsterGroups>
+    <Group size="1">
+        <Boss>1</Boss>
+        <ArenaName>dungeon</ArenaName>
+        <Monsters>
+            <Monster race="5" sex="0" class="3">
+                <Name>NitghtVisio</Name>
+                <Level min="3" max="3"/>
+                <ExpVal>0.3</ExpVal>
+                <Radius>2.5</Radius>
+                <Model>zombie</Model>
+                <Texture>zombie</Texture>
+            </Monster>
+        </Monsters>
+    </Group>
+</MonsterGroups>

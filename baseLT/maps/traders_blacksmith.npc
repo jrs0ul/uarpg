@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="3">
+        <Pos x="3" y="3"/>
+        <Sprite>peasant.tga</Sprite>
+        <Script>Smith("maps/shops/traders_smith.xml")</Script>
+    </Npc>
+</Npcs>

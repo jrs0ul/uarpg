@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="5">
+        <Pos x="17" y="22"/>
+        <Sprite>chick.tga</Sprite>
+        <Texture>chika.tga</Texture>
+        <Model>chika.rm2</Model>
+        <Script>Exec("scripts/confront_nightvisio.gsc")</Script>
+    </Npc>
+    <Npc type="3">
+        <Pos x="16" y="22"/>
+        <Sprite>ldeemon.tga</Sprite>
+        <Texture>zombie.tga</Texture>
+        <Model>zombie.rm2</Model>
+        <Script>Exec("scripts/confront_nightvisio.gsc")</Script>
+    </Npc>
+</Npcs>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="5">
+        <Pos x="16" y="25"/>
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("150","100","Sargybinis A","Visiems nevalia išvykti iš šito miesto !","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="18" y="25"/>
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("150","100","Sargybinis B","Atleisk, bet karalius įsakė saugoti vartus","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="4">
+        <Pos x="18" y="24"/>
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("150","100","Sargybinis C","Čia taip nuobodu...","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="4">
+        <Pos x="16" y="24"/>
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("150","100","Sargybinis D","Niekam nevalia išvykti iš šio miesto !","citizens.tga","1")</Script>
+    </Npc>
+</Npcs>

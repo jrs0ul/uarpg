@@ -1,0 +1,64 @@
+frm.tga
+8 8 0
+title.tga
+128 256 1
+bg.tga
+256 512 1
+rod.tga
+16 16 1mark.tga
+24 24
+f1human.tga
+50 45 0
+f0human.tga
+50 45 0
+fhdeemon.tga
+50 45 0
+fldeemon.tga
+50 45 0
+fwormman.tga
+50 45 0
+human.tga
+32 32
+hdeemon.tga
+32 32
+ldeemon.tga
+32 32
+wormman_.tga
+32 32
+status.tga
+75 70 0
+handy.tga
+32 32
+charai.tga
+16 16
+king.tga
+32 32 0
+horn.tga
+32 32 0
+peasant.tga
+32 32
+icons.tga
+16 16
+faceselector.tga
+50 45
+guardian.tga
+32 32citizens.tga
+50 45 0
+sky/neg_x.tga
+512 512 1
+sky/neg_y.tga
+512 512 1
+sky/neg_z.tga
+512 512 1
+sky/pos_x.tga
+512 512 1
+sky/pos_y.tga
+512 512 1
+sky/pos_z.tga
+512 512 1
+chick.tga
+32 32 0
+particles/blood.tga
+32 32 1
+party.tga
+50 45 0

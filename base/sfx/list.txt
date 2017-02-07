@@ -1,0 +1,3 @@
+sfx/alarm.ogg
+sfx/finger.ogg
+

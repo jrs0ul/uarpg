@@ -1,0 +1,57 @@
+import os
+import sys
+
+OBJ_DIR = os.path.join(os.getcwd(), 'obj/');
+env = Environment(ENV=os.environ,
+                  CCFLAGS=['-O3','-Wall'],
+                  OBJPREFIX = OBJ_DIR)
+
+code = ["src/SDLVideo.cpp",
+        "src/main.cpp",
+        "src/AssetBrowser.cpp",
+        "src/ViewDialog.cpp",
+        "src/TileTool.cpp",
+        "src/TilesetInfo.cpp",
+        "../obj/ShaderProgram.o",
+        "../obj/npc.o",
+        "../obj/Xml.o",
+        "../obj/Utils.o",
+        "../obj/Extensions.o",
+        "../obj/Matrix.o",
+        "../obj/rm2.o",
+        "../obj/Vectors.o",
+        "../obj/Worldmap.o",
+        "../obj/Entity.o",
+        "../obj/TextureLoader.o",
+        "../obj/Image.o",
+        "src/MapHeaderDlg.cpp",
+        "../obj/VertexObject.o",
+        "../obj/Text.o",
+        "../src/gui/Button.cpp",
+        "../obj/EditBox.o",
+        "../obj/Coolframe.o",
+        "../obj/SelectMenu.o",
+        "../obj/SoundSystem.o",
+        "../obj/MenuStruct.o",
+        "../obj/DebugProps.o",
+        "src/Selection.cpp"]
+
+
+#windows
+if sys.platform == 'win32':
+    Tool('mingw')(env)
+    env.Append(LIBS = ['mingw32','SDLmain', 'SDL', 'OpenGL32', 'openal32', 'ogg', 'vorbisfile'])
+else:  #Mac OS X
+    if sys.platform == 'darwin':
+        env['FRAMEWORKS'] = ['Cocoa', 'SDL', 'OPENGL', 'OpenAL', 'Ogg', 'vorbis']
+        env.Append(LIBS = ['iconv', 'pthread'])
+        env.Append(CCFLAGS = ['-arch', 'i386'])
+        env.Append(LINKFLAGS = ['-arch', 'i386'])
+        code.append('../obj/SDLMain.o')
+    else: #Linux
+        env.Append(LIBS = ['SDL','GL', 'openal', 'vorbisfile', 'ogg', 'pthread'])
+
+
+env.Program(target = "../edmap_sdl", 
+            source = code )
+

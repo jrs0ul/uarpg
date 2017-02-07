@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="27" y="9" type="0">
+            <Script>LoadMap("5","8","inn")</Script>
+        </Point>
+        <Point x="17" y="4" type="0">
+            <Script>Exec("scripts/imboz_enter_castle.gsc")</Script>
+        </Point>
+        <Point x="17" y="5" type="0">
+            <Script>Exec("scripts/imboz_bythe_castle.gsc")</Script>
+        </Point>
+        <Point x="17" y="25" type="0">
+            <Script>Exec("scripts/imboz_gate.gsc")</Script>
+        </Point>
+        <Point x="17" y="21" type="0">
+            <Script>Exec("scripts/imboz_victory.gsc")</Script>
+        </Point>
+        <Point x="24" y="17" type="0">
+            <Script>LoadMap("5","8","imboz_blacksmith")</Script>
+        </Point>
+        <Point x="32" y="23" type="0">
+            <Script>LoadMap("6","6","imboz_shop")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("14","6","world")</Script>
+    </Border>
+</Events>

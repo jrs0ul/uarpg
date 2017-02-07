@@ -1,0 +1,9 @@
+NoJoy
+if(Has_Spit=true)
+    GoTo("6")
+LoadMap("11","9","burglar_inn")
+GoTo("9")
+NoJoy
+LoadMap("11","9","burglar_inn")
+RemoveNpc("3")
+//lolzor

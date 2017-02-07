@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Hero>
+    <Name>Korn</Name>
+    <Model>barbarian</Model>
+    <Texture>barbarian</Texture>
+    <Sprite>horn</Sprite>
+    <Race>0</Race>
+    <Sex>0</Sex>
+    <Class>0</Class>
+    <HPmax>40</HPmax>
+    <MPmax>0</MPmax>
+    <EXP>300</EXP>
+    <Stats attack="6" deffense="4" agility="3" spirit="2" magpower="0"/>
+    <EvolvSpeed>25</EvolvSpeed>
+    <Radius>3.1</Radius>
+    <Face src="party.tga" index="0"/>
+    <Resistence bolt="0" fire="0" ice="0" poison="0"/>
+    <Items>
+        <Item id="11" count="60"/>
+        <Item id="3" count="2"/>
+        <Item id="13" count="1"/>
+        <Item id="18" count="1"/>
+    </Items>
+</Hero>
+

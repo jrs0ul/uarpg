@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="14" y="4" type="0">
+            <Script>LoadMap("35","20","dungeon")</Script>
+        </Point>
+        <Point x="8" y="8" type="0">
+            <Script>Exec("scripts/throneroom_event.gsc")</Script>
+        </Point>
+        <Point x="11" y="4" type="0">
+            <Script>Exec("scripts/final_battle.gsc")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("17","5","imboz")</Script>
+    </Border>
+</Events>

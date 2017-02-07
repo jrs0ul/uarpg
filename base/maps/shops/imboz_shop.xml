@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Shop>
+    <Item index="0" markup="1" />
+    <Item index="1" markup="1" />
+    <Item index="3" markup="3" />
+    <Item index="4" markup="5" />
+</Shop>

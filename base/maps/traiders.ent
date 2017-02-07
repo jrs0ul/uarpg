@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="16" y="21" type="0">
+            <Script>LoadMap("5","8","traders_inn")</Script>
+        </Point>
+        <Point x="4" y="5" type="0">
+            <Script>LoadMap("6","6","item_shop")</Script>
+        </Point>
+        <Point x="15" y="8" type="0">
+            <Script>LoadMap("5","8","traders_blacksmith")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("10","15","world")</Script>
+    </Border>
+</Events>

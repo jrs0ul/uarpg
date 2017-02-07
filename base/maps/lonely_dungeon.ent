@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="12" y="5" type="0">
+            <Script>Exec("scripts/first_eek.gsc")</Script>
+        </Point>
+        <Point x="16" y="8" type="0">
+            <Script>Exec("scripts/second_eek.gsc")</Script>
+        </Point>
+        <Point x="4" y="6" type="1">
+            <Script>Exec("scripts/get_spellbook.gsc")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("5","26","world")</Script>
+    </Border>
+</Events>

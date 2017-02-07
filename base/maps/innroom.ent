@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="0" point="4" type="0">
+            <Script>LoadMap("9","2","inn")</Script>
+        </Point>
+    </Points>
+</Events>
+

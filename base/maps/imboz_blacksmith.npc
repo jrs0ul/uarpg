@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Npcs> 
+    <Npc type="3">
+        <Pos x="3" y="3"/>
+        <Sprite>peasant.tga</Sprite>
+        <Script>Smith("maps/shops/imboz_smith.xml")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="6" y="6"/>
+        <Sprite>horn.tga</Sprite>
+        <Script>Say("150","100","Korn","I'm looking for some weapons","party.tga","0")</Script>
+    </Npc>
+</Npcs>

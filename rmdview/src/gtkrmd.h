@@ -1,0 +1,1 @@
+void BuildButtons(unsigned count);

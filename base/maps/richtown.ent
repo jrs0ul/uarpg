@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="6" y="4" type="1">
+            <Script>Exec("scripts/richtown_lock.gsc")</Script>
+        </Point>
+        <Point x="5" y="4" type="1">
+            <Script>Exec("scripts/richtown_lock.gsc")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("21","26","world")</Script>
+    </Border>
+</Events>

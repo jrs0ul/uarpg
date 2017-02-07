@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<Menus>
+    <Menu>
+        <Title>Choose:</Title>
+        <Options>
+            <Option>Cast</Option>
+            <Option>Inventory</Option>
+            <Option>Unequip</Option>
+            <Option>Info</Option>
+            <Option>Options</Option>
+            <Option>Save</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Choose option:</Title>
+        <Options>
+            <Option>Quit</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Choose:</Title>
+        <Options>
+            <Option>Use</Option>
+            <Option>Equip</Option>
+            <Option>Give</Option>
+            <Option>Throw</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Equip/Unequip</Title>
+        <Options>
+            <Option>L hand</Option>
+            <Option>R hand</Option>
+            <Option>Armor</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title> </Title>
+        <Options>
+            <Option>Attack</Option>
+            <Option>Cast</Option>
+            <Option>Defend</Option>
+            <Option>Use</Option>
+            <Option>Run</Option>
+            <Option>Skip</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title> </Title>
+        <Options>
+            <Option>New game</Option>
+            <Option>Onward</Option>
+            <Option>Options</Option>
+            <Option>Mods</Option>
+            <Option>Credits</Option>
+            <Option>Exit</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Shop:</Title>
+        <Options>
+            <Option>Buy</Option>
+            <Option>Sell</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Creating first hero :</Title>
+        <Options>
+            <Option>Race:</Option>
+            <Option>Sex:</Option>
+            <Option>Class:</Option>
+            <Option>Name:</Option>
+            <Option>Roll Dice</Option>
+            <Option>Select Face</Option>
+            <Option>DONE</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Choose sex:</Title>
+        <Options>
+            <Option>male</Option>
+            <Option>female</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Reset game ?</Title>
+        <Options>
+            <Option>Yes</Option>
+            <Option>No</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Inn:</Title>
+        <Options>
+            <Option>Rest</Option>
+            <Option>Take heroes</Option>
+            <Option>Leave heroes</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Blacksmith's shop</Title>
+        <Options>
+            <Option>Buy</Option>
+            <Option>Sell</Option>
+            <Option>Repair</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Your hero</Title>
+        <Options>
+            <Option>Use default</Option>
+            <Option>Make your own</Option>
+        </Options>
+    </Menu>
+    <Menu>
+        <Title>Options</Title>
+        <Options>
+            <Option>Resolution: </Option>
+            <Option>FullScreen: </Option>
+            <Option>Shadows: </Option>
+            <Option>Sound: </Option>
+        </Options>
+    </Menu>
+
+</Menus>

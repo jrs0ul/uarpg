@@ -1,0 +1,18 @@
+NoJoy
+if(Victory=false)
+ GoTo("18")
+if(Victory=true)
+ GoTo("7")
+GoTo("18")
+RemoveNpc("2")
+RemoveNpc("1")
+Say("100","50","Korn","Jee mes laimėjom!!!","party.tga","0")
+if(conversation=active)
+ GoTo("10") 
+Let("Victory","false")
+PushNpc("1","4","1")
+PushNpc("0","1","8")
+if(dude1=active)
+ GoTo("15")
+PushNpc("1","1","8")
+NoJoy

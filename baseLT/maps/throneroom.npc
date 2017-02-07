@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="5">
+        <Pos x="6" y="22"/> 
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("100","50","Sargybinis","Stovėti visą diena užknisa","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="10" y="22"/> 
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("100","50","Sargybinis","lol","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="7" y="8"/> 
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("100","50","Sargybinis","Karalius tau nori pasakyti kažką svarbaus","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="9" y="8"/>
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("100","50","Sargybinis","lol","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="6" y="14"/> 
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("100","50","Sargybinis","lol","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="10" y="14"/>
+        <Sprite>guardian.tga</Sprite>
+        <Texture>guard.tga</Texture>
+        <Model>guard.rm2</Model>
+        <Script>Say("100","50","Guard","E, a pastatysi man olaus kai baigsis mano pamaina ?","citizens.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="8" y="5"/>
+        <Sprite>king.tga</Sprite>
+        <Texture>tking.tga</Texture>
+        <DefaultFrame>14</DefaultFrame>
+        <Model>king.rm2</Model>
+        <Script>Say("100","50","King","lol","citizens.tga","0")</Script>
+    </Npc>
+</Npcs>

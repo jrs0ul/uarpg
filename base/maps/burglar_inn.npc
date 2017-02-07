@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="3">
+        <Pos x="12" y="3"/>
+        <Sprite>hdeemon.tga</Sprite>
+        <Texture>spit.tga</Texture>
+        <Model>spit.rm2</Model>
+        <Script>Say("150","100","Keeper","Greetings travelers!","fhdeemon.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="18" y="7"/>
+        <Sprite>ldeemon.tga</Sprite>
+        <Texture>ldeamon.tga</Texture>
+        <Model>ldaemon.rm2</Model>
+        <Script>Say("150","100","Pompa","What do ya want noobs?","fldeemon.tga","0")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="10" y="5"/>
+        <Sprite>hdeemon.tga</Sprite>
+        <Texture>spit.tga</Texture>
+        <Model>spit.rm2</Model>
+        <Script>Exec("scripts/add_spit.gsc")</Script>
+    </Npc>
+</Npcs>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="3" y="3" type="1">
+            <Script>Say("150","300","Head","JOIN US !....","citizens.tga","2")</Script>
+        </Point>
+        <Point x="18" y="5" type="0">
+            <Script>Exec("scripts/enter_burglar_inn.gsc")</Script>
+        </Point>
+        <Point x="19" y="5" type="0">
+            <Script>Exec("scripts/enter_burglar_inn.gsc")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("24","38","world")</Script>
+    </Border>
+</Events>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+    </Points>
+    <Border>
+        <Script>LoadMap("24","18","imboz")</Script>
+    </Border>
+</Events>

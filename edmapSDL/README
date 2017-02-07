@@ -1,0 +1,24 @@
+SHORTCUTS
+
+R - rotation mode
+S - scaling mode
+G - movement mode
+ARROW KEYS; PAGEUP & PAGEDOWN - moves, rotates or scales;
+ALT + R - resets rotation of selected 3d objects.
+ALT + S - resets scaling
+CTRL + KEYS - increments/decrements angle by 90 degrees.
+DEL - deletes selected assets
+SHIFT + D - duplicates selected objects
+A - select/deselect all
+NUMPAD 5 - goes to ortho mode.
+NUMPAD 7 - top view (ortho mode).
+NUMPAD 3 - side view (ortho mode).
+NUMPAD 1 - different side view.
+
+X - rotation/translation/scaling in X axis
+Y - rotation/translation/scaling in Y axis
+Z - rotation/translation/scaling in Z axis
+
+SHIFT + X - aligns selected object by first's X value
+SHIFT + Y - aligns selected object by first's Y value
+SHIFT + Z - aligns selected object by first's Z value

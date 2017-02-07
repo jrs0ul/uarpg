@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="9" y="2" type="0">
+            <Script>LoadMap("1","3","innroom")</Script>
+        </Point>
+        <Point x="2" y="4" type="1">
+            <Script>Inn</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("27","10","imboz")</Script>
+    </Border>
+</Events>

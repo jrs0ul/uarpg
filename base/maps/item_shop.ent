@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="2" y="4" type="1">
+            <Script>Shop("maps/shops/testshop.xml")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("4","6","traiders")</Script>
+    </Border>
+</Events>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Hero>
+    <Name>Spit</Name>
+    <Model>spit</Model>
+    <Texture>spit</Texture>
+    <Sprite>hdeemon</Sprite>
+    <Race>1</Race>
+    <Sex>0</Sex>
+    <Class>2</Class>
+    <HPmax>40</HPmax>
+    <MPmax>55</MPmax>
+    <EXP>600</EXP>
+    <Stats attack="1" deffense="2" agility="3" spirit="4" magpower="3"/>
+    <EvolvSpeed>95</EvolvSpeed>
+    <Radius>1.8</Radius>
+    <Face src="party.tga" index="1"/>
+    <Resistence bolt="1" fire="1" ice="1" poison="1"/>
+    <Items>
+        <Item id="12" count="1"/>
+        <Item id="1" count="4"/>
+        <Item id="11" count="30"/>
+    </Items>
+</Hero>
+

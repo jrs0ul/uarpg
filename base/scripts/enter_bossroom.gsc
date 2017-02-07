@@ -1,0 +1,11 @@
+NoJoy
+LoadMap("13","4","throneroom")
+AddNpc("8","5","5","king.tga","zombie_king.rm2","zombie_king.tga");
+RemoveNpc("1")
+RemoveNpc("2")
+RemoveNpc("3")
+RemoveNpc("4")
+RemoveNpc("5")
+RemoveNpc("6")
+RemoveNpc("7")
+NoJoy

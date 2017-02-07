@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="11" y="11" type="0">
+            <Script>LoadMap("19","6","burglar_town")</Script>
+        </Point>
+        <Point x="10" y="11" type="0">
+            <Script>LoadMap("18","6","burglar_town")</Script>
+        </Point>
+        <Point x="11" y="9" type="0">
+            <Script>Exec("scripts/kornmeetsspit.gsc")</Script>
+        </Point>
+        <Point x="4" y="3" type="1">
+            <Script>OpenBox("-1","1","10","81","2")</Script>
+        </Point>
+        <Point x="12" y="4" type="1">
+            <Script>Inn</Script>
+        </Point>
+    </Points>
+</Events>

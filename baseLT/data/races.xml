@@ -1,0 +1,297 @@
+<?xml version="1.0" ?>
+<!--Rasiu duomenys-->
+<RaceList>
+    <Race>
+        <Name>Žmogus</Name>
+        <Playable>1</Playable>
+        <EvolvSpeed>25</EvolvSpeed>
+        <Resistance>
+            <Fire>0</Fire>
+            <Ice>3</Ice>
+            <Bolt>-1</Bolt>
+            <Poison>2</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex name="Vyras">
+                <BonusPoints>
+                    <hp>4</hp>
+                    <mp>1</mp>
+                    <attack>2</attack>
+                    <deffense>1</deffense>
+                    <agility>1</agility>
+                    <magpower>1</magpower>
+                    <spirit>2</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="11" min="8"/>
+                    <mp       max="8"  min="6"/>
+                    <attack   max="4"  min="2"/>
+                    <deffense max="3"  min="1"/>
+                    <agility  max="2"  min="1"/>
+                    <magpower max="2"  min="2"/>
+                    <spirit   max="3"  min="2"/>
+                </StartPoints>
+            </Sex>
+            <Sex name="Moteris">
+                <BonusPoints>
+                    <hp>2</hp>
+                    <mp>2</mp>
+                    <attack>1</attack>
+                    <deffense>1</deffense>
+                    <agility>2</agility>
+                    <magpower>1</magpower>
+                    <spirit>1</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="10" min="7"/>
+                    <mp       max="9"  min="7"/>
+                    <attack   max="3"  min="1"/>
+                    <deffense max="3"  min="1"/>
+                    <agility  max="3"  min="1"/>
+                    <magpower max="3"  min="1"/>
+                    <spirit   max="2"  min="1"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+    </Race>
+
+    <Race>
+        <Name>A.Demonas</Name>
+        <Playable>1</Playable>
+        <EvolvSpeed>22</EvolvSpeed>
+        <Resistance>
+            <Fire>0</Fire>
+            <Ice>-1</Ice>
+            <Bolt>4</Bolt>
+            <Poison>2</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex>
+                <BonusPoints>
+                    <hp>3</hp>
+                    <mp>4</mp>
+                    <attack>1</attack>
+                    <deffense>1</deffense>
+                    <agility>2</agility>
+                    <magpower>2</magpower>
+                    <spirit>2</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="6"  min="4"/>
+                    <mp       max="10" min="8"/>
+                    <attack   max="2"  min="1"/>
+                    <deffense max="2"  min="1"/>
+                    <agility  max="3"  min="1"/>
+                    <magpower max="3"  min="2"/>
+                    <spirit   max="3"  min="2"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+    </Race>
+
+    <Race>
+        <Name>Ž.Demonas</Name>
+        <Playable>1</Playable>
+        <EvolvSpeed>32</EvolvSpeed>
+        <Resistance>
+            <Fire>0</Fire>
+            <Ice>0</Ice>
+            <Bolt>1</Bolt>
+            <Poison>3</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex>
+                <BonusPoints>
+                    <hp>5</hp>
+                    <mp>1</mp>
+                    <attack>2</attack>
+                    <deffense>2</deffense>
+                    <agility>1</agility>
+                    <magpower>1</magpower>
+                    <spirit>2</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="16" min="14"/>
+                    <mp       max="1"  min="1"/>
+                    <attack   max="7"  min="4"/>
+                    <deffense max="5"  min="3"/>
+                    <agility  max="2"  min="1"/>
+                    <magpower max="1"  min="1"/>
+                    <spirit   max="1"  min="0"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+    </Race>
+
+
+    <Race>
+        <Name>Kirmžmogis</Name>
+        <Playable>1</Playable>
+        <EvolvSpeed>35</EvolvSpeed>
+        <Resistance>
+            <Fire>-1</Fire>
+            <Ice>-1</Ice>
+            <Bolt>0</Bolt>
+            <Poison>4</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex>
+                <BonusPoints>
+                    <hp>6</hp>
+                    <mp>1</mp>
+                    <attack>3</attack>
+                    <deffense>1</deffense>
+                    <agility>1</agility>
+                    <magpower>0</magpower>
+                    <spirit>1</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="18" min="16"/>
+                    <mp       max="1"  min="0"/>
+                    <attack   max="7"  min="6"/>
+                    <deffense max="2"  min="1"/>
+                    <agility  max="1"  min="0"/>
+                    <magpower max="1"  min="1"/>
+                    <spirit   max="2"  min="1"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+    </Race>
+
+    <Race>
+        <Name>Medžiotojas</Name>
+        <Playable>0</Playable>
+        <EvolvSpeed>30</EvolvSpeed>
+        <Resistance>
+            <Fire>0</Fire>
+            <Ice>0</Ice>
+            <Bolt>0</Bolt>
+            <Poison>0</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex>
+                <BonusPoints>
+                    <hp>2</hp>
+                    <mp>0</mp>
+                    <attack>3</attack>
+                    <deffense>1</deffense>
+                    <agility>2</agility>
+                    <magpower>0</magpower>
+                    <spirit>1</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="20" min="18"/>
+                    <mp       max="0"  min="0"/>
+                    <attack   max="7"  min="6"/>
+                    <deffense max="4"  min="3"/>
+                    <agility  max="3"  min="2"/>
+                    <magpower max="0"  min="0"/>
+                    <spirit   max="0"  min="0"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+    </Race>
+
+    <Race>
+        <Name>Zombis</Name>
+        <Playable>0</Playable>
+        <EvolvSpeed>37</EvolvSpeed>
+        <Resistance>
+            <Fire>0</Fire>
+            <Ice>0</Ice>
+            <Bolt>0</Bolt>
+            <Poison>0</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex>
+                <BonusPoints>
+                    <hp>5</hp>
+                    <mp>0</mp>
+                    <attack>3</attack>
+                    <deffense>1</deffense>
+                    <agility>2</agility>
+                    <magpower>0</magpower>
+                    <spirit>1</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="15" min="10"/>
+                    <mp       max="0"  min="0"/>
+                    <attack   max="6"  min="3"/>
+                    <deffense max="2"  min="1"/>
+                    <agility  max="2"  min="1"/>
+                    <magpower max="0"  min="0"/>
+                    <spirit   max="0"  min="0"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+    </Race>
+
+    <Race>
+        <Name>Kramtukas</Name>
+        <Playable>0</Playable>
+        <EvolvSpeed>100</EvolvSpeed>
+        <Resistance>
+            <Fire>-1</Fire>
+            <Ice>-1</Ice>
+            <Bolt>-1</Bolt>
+            <Poison>-1</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex>
+                <BonusPoints>
+                    <hp>3</hp>
+                    <mp>0</mp>
+                    <attack>2</attack>
+                    <deffense>1</deffense>
+                    <agility>2</agility>
+                    <magpower>0</magpower>
+                    <spirit>0</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="5"  min="3"/>
+                    <mp       max="0"  min="0"/>
+                    <attack   max="1"  min="1"/>
+                    <deffense max="2"  min="1"/>
+                    <agility  max="2"  min="1"/>
+                    <magpower max="0"  min="0"/>
+                    <spirit   max="0"  min="0"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+
+    </Race>
+    <Race>
+        <Name>Skeletas</Name>
+        <Playable>0</Playable>
+        <EvolvSpeed>40</EvolvSpeed>
+        <Resistance>
+            <Fire>2</Fire>
+            <Ice>10</Ice>
+            <Bolt>3</Bolt>
+            <Poison>5</Poison>
+        </Resistance>
+        <Sexes>
+            <Sex>
+                <BonusPoints>
+                    <hp>10</hp>
+                    <mp>0</mp>
+                    <attack>4</attack>
+                    <deffense>1</deffense>
+                    <agility>4</agility>
+                    <magpower>1</magpower>
+                    <spirit>3</spirit>
+                </BonusPoints>
+                <StartPoints>
+                    <hp       max="25" min="15"/>
+                    <mp       max="0"  min="0"/>
+                    <attack   max="8"  min="4"/>
+                    <deffense max="2"  min="1"/>
+                    <agility  max="3"  min="2"/>
+                    <magpower max="2"  min="1"/>
+                    <spirit   max="3"  min="2"/>
+                </StartPoints>
+            </Sex>
+        </Sexes>
+    </Race>
+
+</RaceList>

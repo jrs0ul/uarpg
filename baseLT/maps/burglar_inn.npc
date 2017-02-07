@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="3">
+        <Pos x="12" y="3"/>
+        <Sprite>hdeemon.tga</Sprite>
+        <Script>Say("150","100","Smuklininkas","Sveiki keliauninkai!","fhdeemon.tga","1")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="18" y="7"/>
+        <Sprite>ldeemon.tga</Sprite>
+        <Script>Say("300","100","Ponpa","Ko čia lendat lopai?","fldeemon.tga","0")</Script>
+    </Npc>
+    <Npc type="5">
+        <Pos x="10" y="5"/>
+        <Sprite>hdeemon.tga</Sprite>
+        <Script>Exec("scripts/add_spit.gsc")</Script>
+    </Npc>
+</Npcs>

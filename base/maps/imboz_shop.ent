@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="2" y="4" type="1">
+            <Script>Shop("maps/shops/imboz_shop.xml")</Script>
+        </Point>
+    </Points>
+    <Border>
+        <Script>LoadMap("32","24","imboz")</Script>
+    </Border>
+</Events>

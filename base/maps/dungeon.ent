@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Events>
+    <Points>
+        <Point x="20" y="0" type="0">
+            <Script>LoadMap("22","10","world")</Script>
+        </Point>
+        <Point x="35" y="21" type="0">
+            <Script>Exec("scripts/enter_bossroom.gsc")</Script>
+        </Point>
+        <Point x="13" y="11" type="1">
+            <Script>OpenBox("-1","2","3","55","2")</Script>
+        </Point>
+        <Point x="15" y="1" type="1">
+            <Script>OpenBox("-1","22","1","55","2")</Script>
+        </Point>
+        <Point x="12" y="8" type="1">
+            <Script>OpenBox("-1","0","3","55","2")</Script>
+        </Point>
+        <Point x="31" y="20" type="1">
+            <Script>OpenBox("-1","0","1","55","2")</Script>
+        </Point>
+        <Point x="40" y="14" type="1">
+            <Script>OpenBox("-1","19","1","55","2")</Script>
+        </Point>
+        <Point x="35" y="2" type="1">
+            <Script>OpenBox("-1","4","2","55","2")</Script>
+        </Point>
+        <Point x="38" y="2" type="1">
+            <Script>OpenBox("-1","3","4","55","2")</Script>
+        </Point>
+    </Points>
+</Events>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npcs>
+    <Npc type="3">
+        <Pos x="2" y="3"/>
+        <Sprite>hdeemon.tga</Sprite>
+        <Script>Say("150","100","Keeper","Greetings travelers!","fhdeemon.bmp","1")</Script>
+    </Npc>
+</Npcs>
